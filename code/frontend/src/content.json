@@ -1,11 +1,31 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Tiệm công nghệ Thành" },
+  "nav": {
+    "links": [
+      { "label": "Sản phẩm", "href": "#products" },
+      { "label": "Mua tại tiệm", "href": "#store" }
+    ],
+    "cta": { "label": "Gọi tiệm", "href": "tel:+84000000000" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Apple cao cấp",
+    "sub": "iPhone, MacBook, iPad, Apple Watch và phụ kiện chính hãng.",
+    "cta": { "label": "Xem sản phẩm", "href": "#products" }
+  },
+  "products": {
+    "heading": "Sản phẩm",
+    "items": [
+      { "name": "iPhone", "detail": "Dòng Pro mới, máy mới nguyên seal." },
+      { "name": "MacBook", "detail": "Air và Pro cho học tập, làm việc, đồ họa." },
+      { "name": "iPad", "detail": "iPad Air, iPad Pro, Apple Pencil." },
+      { "name": "Apple Watch", "detail": "Series, Ultra, dây và sạc." }
+    ]
+  },
+  "store": {
+    "heading": "Mua tại tiệm",
+    "line": "Đến tiệm để xem máy, kiểm tra phụ kiện và chọn màu.",
+    "caption": "Ảnh tiệm sẽ đặt ở đây.",
+    "cta": { "label": "Gọi tiệm", "href": "tel:+84000000000" }
+  },
+  "footer": { "line": "Tiệm công nghệ Thành · Apple cao cấp" }
 }
