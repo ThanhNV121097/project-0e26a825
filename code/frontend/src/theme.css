@@ -1,21 +1,19 @@
-/* The design's tokens. Every colour, face and shape on the site is one of
-   these, so the owner changes the whole site by changing a value here — in
-   the Studio, without a rebuild. Components never carry a raw colour. */
+/* Design tokens for Tiệm công nghệ Thành. Components use Tailwind names backed by these variables. */
 :root {
-  --ground: #F6F2EA;
+  --ground: #F5F5F3;
   --surface: #FFFFFF;
-  --ink: #1B1917;
-  --ink-soft: #5E5954;
-  --accent: #B8412E;
+  --ink: #111111;
+  --ink-soft: #6E6E73;
+  --accent: #0071E3;
   --accent-ink: #FFFFFF;
-  --line: rgba(27, 25, 23, 0.12);
+  --line: rgba(17, 17, 17, 0.12);
 
-  --font-display: "Fraunces";
+  --font-display: "Inter";
   --font-body: "Inter";
-  --weight-display: 500;
-  --tracking-display: -0.02em;
+  --weight-display: 700;
+  --tracking-display: -0.06em;
 
-  --radius: 12px;
-  --page: 1160px;
-  --gutter: clamp(20px, 5.5vw, 72px);
+  --radius: 28px;
+  --page: 1180px;
+  --gutter: clamp(20px, 5vw, 72px);
 }
